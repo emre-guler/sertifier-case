@@ -1,0 +1,12 @@
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/bin/Debug/net7.0/SertifierCase.Infrastructure.deps.json
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/bin/Debug/net7.0/SertifierCase.Infrastructure.dll
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/bin/Debug/net7.0/SertifierCase.Infrastructure.pdb
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.csproj.AssemblyReference.cache
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.AssemblyInfoInputs.cache
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.AssemblyInfo.cs
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.dll
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/refint/SertifierCase.Infrastructure.dll
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/SertifierCase.Infrastructure.pdb
+/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/Debug/net7.0/ref/SertifierCase.Infrastructure.dll

@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emreguler/workspace/SertifierCase/SertifierCase.API/SertifierCase.API.csproj": {}
+  },
+  "projects": {
+    "/Users/emreguler/workspace/SertifierCase/SertifierCase.API/SertifierCase.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emreguler/workspace/SertifierCase/SertifierCase.API/SertifierCase.API.csproj",
+        "projectName": "SertifierCase.API",
+        "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.API/SertifierCase.API.csproj",
+        "packagesPath": "/Users/emreguler/.nuget/packages/",
+        "outputPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emreguler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj": {
+                "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj"
+              },
+              "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj": {
+                "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj"
+              },
+              "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/SertifierCase.Service.csproj": {
+                "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/SertifierCase.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.32, )"
+            },
+            "Hangfire.MySqlStorage": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj",
+        "projectName": "SertifierCase.Data",
+        "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj",
+        "packagesPath": "/Users/emreguler/.nuget/packages/",
+        "outputPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emreguler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj",
+        "projectName": "SertifierCase.Infrastructure",
+        "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj",
+        "packagesPath": "/Users/emreguler/.nuget/packages/",
+        "outputPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emreguler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/SertifierCase.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/SertifierCase.Service.csproj",
+        "projectName": "SertifierCase.Service",
+        "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/SertifierCase.Service.csproj",
+        "packagesPath": "/Users/emreguler/.nuget/packages/",
+        "outputPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emreguler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj": {
+                "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Data/SertifierCase.Data.csproj"
+              },
+              "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj": {
+                "projectPath": "/Users/emreguler/workspace/SertifierCase/SertifierCase.Infrastructure/SertifierCase.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
